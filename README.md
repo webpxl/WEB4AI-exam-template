@@ -12,3 +12,6 @@ You'll need to install the 2 docker containers (backend & frontend) to get start
 3. Execute `docker-compose up -d`
 4. View the backend docs at http://localhost:8000/docs/
 5. Check frontend at http://localhost:4242
+     * This should show a page that says "Pre-installing Docker containers successful !"
+6. During the exam, you will replace the `src` file in the frontend folder and the `main.py` file in the backend folder (plus add a database file with some test data)
+     * Once you completed these replacements at the start of your exam, you should restart both containers to get the start application running
