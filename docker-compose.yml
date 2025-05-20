@@ -4,7 +4,7 @@ version: '3.7'
 services:
   api:
     build: ./app
-    container_name: "api"
+    container_name: "web4ai_exam_api"
     volumes:
       - ./app:/app
     ports:
@@ -12,9 +12,9 @@ services:
 
   web:
     build: ./web
-    container_name: "web"
+    container_name: "web4ai_exam_web"
     volumes:
-      - ./web:/app
-      - /app/node_modules
+      - ./web:/web
+      - /web/node_modules
     ports:
       - 4242:4242

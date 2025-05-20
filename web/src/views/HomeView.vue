@@ -7,11 +7,10 @@ store.fetchInfo();
 
 <template>
 
-<main className="flex flex-col h-screen">
-     
-      <div className="flex-1 grid grid-cols-2 gap-4 p-8 text-3xl">
-        {{ store.info.text }}
-      </div>
-    </main>
+  <v-sheet class="pa-8">
+      <h3>
+        {{ store?.info?.text }}
+      </h3>
+  </v-sheet>
 
 </template>
