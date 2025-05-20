@@ -1,6 +1,6 @@
 # Web4AI Exam Template
 
-This template provides your dev environment for the Web 4 AI exam. (June 12, 2024)
+This template provides your dev environment for the Web 4 AI exam. (June 11, 2025)
 You'll need to install the 2 docker containers (backend & frontend) to get started on the exam.
 **If you don't, you won't be able to finish the exam.**
 
@@ -16,4 +16,4 @@ You'll need to install the 2 docker containers (backend & frontend) to get start
 6. Good job!
 
 During the exam, you will replace the `src` file in the frontend folder and the `main.py` file in the backend folder. (plus add a database file with some test data)
-Once you completed these replacements at the start of your exam, you should restart both containers to get the start application running.
+Once you completed these replacements at the start of your exam, it's probably a good idea to restart both containers to get the start application running.
