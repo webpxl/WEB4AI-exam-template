@@ -1,14 +1,12 @@
-#docker-compose.yml
-version: '3.7'
-
 services:
-  api:
+  app:
     build: ./app
     container_name: "web4ai_exam_api"
     volumes:
       - ./app:/app
     ports:
       - 8000:8000
+    working_dir: /app
 
   web:
     build: ./web
@@ -18,3 +16,7 @@ services:
       - /web/node_modules
     ports:
       - 4242:4242
+    working_dir: /web
+    command: npm run dev
+    depends_on:
+      - app

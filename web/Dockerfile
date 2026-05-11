@@ -1,11 +1,12 @@
-FROM node:lts-alpine
+FROM node:20-alpine
 
 WORKDIR /web
 
-COPY  ./package.json .
-
-# install project dependencies
+COPY package*.json ./
 RUN npm install
 
+COPY . .
+
 EXPOSE 4242
-CMD [ "npm", "run", "dev"]
+
+CMD ["npm", "run", "dev"]
