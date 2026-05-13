@@ -1,6 +1,6 @@
 # Web4AI Exam Template
 
-This template provides your dev environment for the Web 4 AI exam. (June 11, 2025)
+This template provides your dev environment for the Web 4 AI exam. (June 9, 2026)
 You'll need to install the 2 docker containers (backend & frontend) to get started on the exam.
 **If you don't, you won't be able to finish the exam.**
 
